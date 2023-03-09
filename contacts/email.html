@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Contatti - Email</title>
+        <link rel="stylesheet" href="../assets/css/style-email.css">
+    </head>
+    <body>
+        <header class="speaker-form-header">
+            <h1>Modulo di contatto</h1>
+            <p><em>Per contattarmi compila il seguente modulo</em></p>
+        </header>
+        
+        <form name="formmail" method="post" action="https://formspree.io/f/mvonrynv" class="speaker-form">
+            
+            <div class="form-row">
+                <label for="full-name">Name</label>
+                <input id="full-name" name="full-name" type="text"/>
+            </div>
+            
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email"
+                       name="email"
+                       type="email"
+                       placeholder="joe@example.com"/>
+            </div>
+            
+            <fieldset class="legacy-form-row">
+                <legend>Motivo del contatto</legend>
+                
+                <input id="talk-type-1" 
+                       name="talk-type"  
+                       type="radio"
+                       value="work"/>
+                <label for="talk-type-1" class="radio-label">Lavoro</label>
+                
+                <input id="talk-type-2" 
+                       name="talk-type" 
+                       type="radio"
+                       value="hobby"
+                       checked/>
+                <label for="talk-type-2" class="radio-label">Hobby</label>              
+            </fieldset>
+
+            <div class="form-row">
+                <label for="abstract">Descrizione</label>
+                <textarea id="abstract" name="abstract"></textarea>
+                <div class="instructions">Descrivi la tua domanda in 500 parole</div>
+            </div>
+
+            <div class="form-row">
+                <label class="checkbox-label" for="available">
+                    <input id="available"
+                           name="available"
+                           type="checkbox"
+                           value="is-available"/>
+                    <span>Presto il consenso all'invio della domanda</span>
+                </label>
+            </div>
+
+            <div class="form-row">
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-style: italic;
+    max-width: 960px;
+    min-width: none;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #31FEFE;
+}
+
+p {
+    font-size: 25px;
+}
+
+#cv:link {
+    color: #0000FF;
+}
+#cv:hover {
+    color: #FF0000;
+}

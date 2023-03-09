@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-style: italic;
+    max-width: 960px;
+    min-width: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar{
+    font-size: 20px; 
+    color: #000; 
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #9CC0EE; 
+    padding: 3px;
+    width: 100%; 
+    border: #FFF;
+    border-top-width: 1px;
+    border-right-width: 2px;
+    border-left-width: 1px;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-radius: 5px; 
+}
+    
+a:link {
+    color: #0000FF;
+    text-decoration: none;
+}
+a:visited {
+    color: #800080;
+}
+a:hover {
+    color: #00FFFF;
+    text-decoration: underline;
+}
+a:active {
+    color: #FF0000;
+}
+
+    
