@@ -61,4 +61,12 @@ img {
     margin: 30px 600px 0 0;
 }
 
+.footer_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+    margin-bottom: 60px;
+}
+
 
