@@ -18,7 +18,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #9CC0EE; 
     padding: 3px;
-    width: 960px;
+    width: 100%;
     border: #FFF;
     border-top-width: 1px;
     border-right-width: 2px;
@@ -44,21 +44,3 @@ a:hover {
 a:active {
     color: #FF0000;
 }
-
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
-}
-
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-}
-
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-    body {
-        width: 960px;
-        margin: 0 auto;
-        background-color: #DBF5F5;
-} 
-}
-    

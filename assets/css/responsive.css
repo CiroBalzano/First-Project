@@ -2,23 +2,30 @@
 @media only screen and (max-width: 400px) {
     body {
         background-color: #DBF5F5;
+        width: 95%;
     }
     .button {
         margin-block: 20px auto;
     }
     .navbar {
-        max-width: 400px;
+        width: 95%;
     }
-
+    img {
+        width: 95%;
+    }
+    p {
+        width: 95%;
+    }
 }
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-    .button {
-        margin-block: 20px auto;
-    }
     body{
         background-color: #DBF5F5;
+        width: 95%;
+    }
+    .button {
+        margin-block: 20px auto;
     }
     .menu-container {
         height: auto;
@@ -26,8 +33,14 @@
         align-items: center;
     }
     .navbar {
-        max-width: 960px;
+        max-width: 95%;
     }
+    img {
+        width: 95%;
+    }
+    p {
+        width: 95%;
+    }    
 }
 
 /* Desktop Styles */
@@ -36,13 +49,15 @@
         width: 960px;
         margin: 0 auto;
         background-color: #DBF5F5;
-    }
-    
+    } 
     .button {
         margin-block: 20px;
     }
-
     .menu {
         height: 120px;
     }
+    .navbar {
+        width: 960px;
+    }
+    
 } 
