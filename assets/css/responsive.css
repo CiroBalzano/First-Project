@@ -1,0 +1,48 @@
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: #DBF5F5;
+    }
+    .button {
+        margin-block: 20px auto;
+    }
+    .navbar {
+        max-width: 400px;
+    }
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .button {
+        margin-block: 20px auto;
+    }
+    body{
+        background-color: #DBF5F5;
+    }
+    .menu-container {
+        height: auto;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .navbar {
+        max-width: 960px;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    body {
+        width: 960px;
+        margin: 0 auto;
+        background-color: #DBF5F5;
+    }
+    
+    .button {
+        margin-block: 20px;
+    }
+
+    .menu {
+        height: 120px;
+    }
+} 

@@ -13,6 +13,10 @@ body {
     background-color: #9AF6F6;
 }
 
+h1 {
+    margin-top: 20px;
+}
+
 p {
     text-align: center;
     position: relative;
@@ -67,6 +71,10 @@ img {
     align-items: center;
     margin-top: 110px;
     margin-bottom: 60px;
+}
+
+.navbar {
+    display: fixed;
 }
 
 

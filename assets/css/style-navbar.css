@@ -18,14 +18,16 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #9CC0EE; 
     padding: 3px;
-    width: 100%; 
+    width: 960px;
     border: #FFF;
     border-top-width: 1px;
     border-right-width: 2px;
     border-left-width: 1px;
     border-bottom-width: 2px;
     border-style: solid;
-    border-radius: 5px; 
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
 }
     
 a:link {
@@ -43,4 +45,20 @@ a:active {
     color: #FF0000;
 }
 
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    body {
+        width: 960px;
+        margin: 0 auto;
+        background-color: #DBF5F5;
+} 
+}
     
