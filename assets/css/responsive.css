@@ -10,12 +10,15 @@
     .navbar {
         width: 95%;
     }
-    img {
-        width: 95%;
-    }
     p {
+        position: flex;
         width: 95%;
     }
+
+    img {
+        position: flex;
+    }
+    
 }
 
 /* Tablet Styles */
@@ -36,11 +39,12 @@
         max-width: 95%;
     }
     img {
-        width: 95%;
+        position: flex;
     }
     p {
         width: 95%;
-    }    
+        position: flex;
+    } 
 }
 
 /* Desktop Styles */
