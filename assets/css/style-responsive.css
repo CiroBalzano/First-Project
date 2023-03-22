@@ -12,13 +12,39 @@
     }
     p {
         position: flex;
-        width: 95%;
+        width: 100%;
     }
 
     img {
         position: flex;
+        width: 100%;
+    } 
+    .cars img {
+        position: relative;
+        margin: 10px;
+        width: 95%;
     }
-    
+    .cars p {
+        position: relative;
+        margin: 60px 0;
+    }
+    .pizza img {
+        position: relative;
+        margin: 10px;
+        width: 90%;
+    }
+    .pizza p {
+        position: relative;
+        margin: 60px 0;
+    }
+    .developer img {
+        position: relative;
+        margin: 0;
+    }
+    .developer p {
+        position: relative;
+        margin: 30px 0;
+    }
 }
 
 /* Tablet Styles */
@@ -40,11 +66,38 @@
     }
     img {
         position: flex;
+        width: 100%;
     }
     p {
-        width: 95%;
+        width: 100%;
         position: flex;
     } 
+    .cars img {
+        position: relative;
+        margin: 10px;
+        width: 95%;
+    }
+    .cars p {
+        position: relative;
+        margin: 60px 0;
+    }
+    .pizza img {
+        position: relative;
+        margin: 10px;
+        width: 90%;
+    }
+    .pizza p {
+        position: relative;
+        margin: 60px 0;
+    }
+    .developer img {
+        position: relative;
+        margin: 0;
+    }
+    .developer p {
+        position: relative;
+        margin: 30px 0;
+    }
 }
 
 /* Desktop Styles */
