@@ -1,5 +1,5 @@
 /* Mobile Styles */
-@media only screen and (min-width: 1px) and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
     body {
         background-color: #DBF5F5;
         width: 95%;
@@ -8,7 +8,7 @@
         margin-block: 20px auto;
     }
     .navbar {
-        width: 95%;
+        width: 95%;   
     }
     p {
         position: flex;
@@ -143,8 +143,4 @@
     .menu {
         height: 120px;
     }
-    .navbar {
-        width: 960px;
-    }
-    
 } 
