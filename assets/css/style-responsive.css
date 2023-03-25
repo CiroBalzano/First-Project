@@ -45,6 +45,21 @@
         position: relative;
         margin: 30px 0;
     }
+    .email img {
+        content: url(/assets/img/iphone-email.png);
+        width: 60%;
+        background-color: #FFF;
+    }
+    .linkedin {
+        content: url(/assets/img/iphone-linkedin.png);
+        width: 60%;
+        background-color: #FFF;
+    }
+    .github {
+        content: url(/assets/img/iphone-github.png);
+        width: 60%;
+        background-color: #FFF;
+    }
 }
 
 /* Tablet Styles */
@@ -97,6 +112,21 @@
     .developer p {
         position: relative;
         margin: 30px 0;
+    }
+    .email {
+        content: url(/assets/img/iphone-email.png);
+        width: 60%;
+        background-color: #FFF;
+    }
+    .linkedin {
+        content: url(/assets/img/iphone-linkedin.png);
+        width: 60%;
+        background-color: #FFF;
+    }
+    .github {
+        content: url(/assets/img/iphone-github.png);
+        width: 60%;
+        background-color: #FFF;
     }
 }
 
