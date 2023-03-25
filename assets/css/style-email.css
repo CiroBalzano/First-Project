@@ -210,3 +210,23 @@ body {
     margin-top: 110px;
     margin-bottom: 60px;
 }
+
+.navbar {
+    max-width: 960px;
+}
+
+/* Mobile Styles */
+@media only screen and (min-width: 1px) and (max-width: 400px) {
+    .navbar {
+      max-width: 95%;
+      margin-left: 11px;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .navbar {
+       max-width: 95%;
+       margin-left: 11px;
+    }
+}
