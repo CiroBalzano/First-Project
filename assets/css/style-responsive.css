@@ -1,5 +1,5 @@
 /* Mobile Styles */
-@media only screen and (min-width: 150px) and (max-width: 400px) {
+@media only screen and (min-width: 1px) and (max-width: 400px) {
     body {
         background-color: #DBF5F5;
         width: 95%;
