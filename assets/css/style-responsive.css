@@ -18,8 +18,14 @@
         position: flex;
         width: 100%;
     } 
-    .project2 {
+    #screenshot1 {
         margin: 0 auto;
+    }
+    #screenshot2 {
+        margin: 0 auto;
+    }
+    #screenshot3 {
+        width: 50%;
     }
     .cars img {
         position: relative;
@@ -94,8 +100,14 @@
         margin: 10px;
         width: 95%;
     }
-    .project2 {
+    #screenshot1 {
         margin: 0 auto;
+    }
+    #screenshot2 {
+        margin: 0 auto;
+    }
+    #screenshot3 {
+        width: 50%;
     }
     .cars p {
         position: relative;
