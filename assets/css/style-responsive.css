@@ -19,7 +19,7 @@
         width: 100%;
     } 
     .project2 {
-        width: 80%;
+        margin: 0 auto;
     }
     .cars img {
         position: relative;
@@ -95,7 +95,7 @@
         width: 95%;
     }
     .project2 {
-        width: 80%;
+        margin: 0 auto;
     }
     .cars p {
         position: relative;
