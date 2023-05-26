@@ -18,10 +18,7 @@
         position: flex;
         width: 100%;
     } 
-    #screenshot1 {
-        margin: 0 auto;
-    }
-    #screenshot2 {
+    #screenshot1, #screenshot2 {
         margin: 0 auto;
     }
     #screenshot3 {
@@ -100,10 +97,7 @@
         margin: 10px;
         width: 95%;
     }
-    #screenshot1 {
-        margin: 0 auto;
-    }
-    #screenshot2 {
+    #screenshot1, #screenshot2 {
         margin: 0 auto;
     }
     #screenshot3 {
