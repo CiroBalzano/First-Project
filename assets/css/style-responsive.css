@@ -86,6 +86,9 @@
         position: flex;
         width: 100%;
     }
+    #screenshot3 {
+        width: 80%;
+    }
     p {
         width: 100%;
         position: flex;
