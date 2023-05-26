@@ -18,7 +18,7 @@
         position: flex;
         width: 100%;
     } 
-    #screenshot3 {
+    .project2 {
         width: 80%;
     }
     .cars img {
@@ -94,7 +94,7 @@
         margin: 10px;
         width: 95%;
     }
-    #screenshot3 {
+    .project2 {
         width: 80%;
     }
     .cars p {
